@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name="id" order="100">
+            <widget type="text" fieldname="id" />
+        </column>
+
+
+        <column name="country" order="110">
+            <widget type="select" fieldname="codpais" onclick="EditPais" required="true">
+                <values source="paises" fieldcode="codpais" fieldtitle="nombre" />
+            </widget>
+        </column>
+        <column name="language" order="120">
+            <widget type="select" fieldname="langcode" icon="fas fa-language">
+                <values />
+            </widget>
+        </column>
+
+
+        <column name="to-translate" order="130">
+            <widget type="text" fieldname="atraducir" />
+        </column>
+        <column name="translation" order="140">
+            <widget type="text" fieldname="traduccion" />
+        </column>
+    </columns>
+</view>
