@@ -20,10 +20,10 @@
             
             
             <column name="to-translate" numcolumns="6" order="130">
-                <widget type="text" fieldname="atraducir" />
+                <widget type="text" required="true" fieldname="atraducir" />
             </column>
             <column name="translation" numcolumns="6" order="140">
-                <widget type="text" fieldname="traduccion" />
+                <widget type="text" required="true" fieldname="traduccion" />
             </column>
         </group>
     </columns>
